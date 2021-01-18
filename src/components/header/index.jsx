@@ -45,6 +45,13 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               </a>
             </li>
           )}
+
+          <li className={classes.item}>
+            <a className={classes.link} href={'/JamesBrookesCV.pdf'}>
+              Resume
+            </a>
+          </li>
+
           {github && (
             <li className={classes.item}>
               <a className={classes.link} href={github}>

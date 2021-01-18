@@ -15,8 +15,9 @@ module.exports = {
     github: `https://github.com/james0209`,
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/james-brookes-367413193/`,
+
     // Content of the About Me section
-    about: `I'm a motivated computer science graduate who enjoys taking things apart to understand how they work.`,
+    about: `I am a motivated computer science graduate who enjoys taking things apart to understand how they work.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -28,13 +29,12 @@ module.exports = {
       {
         name: 'Study Planner',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          'Java written application for students to use as a study planner. Allows for import of XML files of students timetables to provide up-to-date information regarding assignments.',
+        link: 'https://github.com/james0209/StudyPlanner',
       },
       {
-        name: 'Another Cool Project',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
+        name: 'Tutoring Website',
+        description: 'Created a Wordpress website for a client',
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
     ],
@@ -51,7 +51,7 @@ module.exports = {
     skills: [
       {
         name: 'Languages & Frameworks',
-        description: 'JavaScript (ES6+), Node.js, React, Bootstrap, PHP',
+        description: 'JavaScript (ES6+), Node.js, React, Bootstrap',
       },
       {
         name: 'Databases',
@@ -59,8 +59,7 @@ module.exports = {
       },
       {
         name: 'Other',
-        description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+        description: 'Gatsby, Netlify, Agile / Scrum',
       },
     ],
   },

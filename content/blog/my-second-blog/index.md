@@ -1,7 +1,7 @@
 ---
 title: Smart Mirror
 date: '2020-10-02T12:00:00.00Z'
-description: 'Ratione dolore sequi in animi obcaecati incidunt reprehenderit illo repellat'
+description: 'Raspberry Pi smart mirror'
 ---
 
 ## Lorem ipsum dolor sit amet consectetur adipisicing elit

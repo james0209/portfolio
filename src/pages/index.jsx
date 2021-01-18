@@ -2,6 +2,7 @@ import { graphql } from 'gatsby';
 import get from 'lodash/get';
 import React from 'react';
 
+import Hero from '../components/hero';
 import Header from '../components/header';
 import Layout from '../components/layout';
 import SectionAbout from '../components/section-about';
@@ -22,7 +23,8 @@ const Index = ({ data }) => {
   return (
     <Layout>
       <SEO />
-      <Header metadata={data.site.siteMetadata} noBlog={noBlog} />
+      <Hero metadata={data.site.siteMetadata} noBlog={noBlog} />
+      {/* <Header metadata={data.site.siteMetadata} noBlog={noBlog} /> */}
       {about && <SectionAbout about={about} />}
       {projects && projects.length && <SectionProjects projects={projects} />}
       {!noBlog && <SectionBlog posts={posts} />}

@@ -3,8 +3,8 @@ import React from 'react';
 
 const classes = {
   wrapper: 'mb-6',
-  name: 'font-semibold text-gray-900 pb-1',
-  description: 'text-md text-gray-600 font-light',
+  name: 'font-semibold text-white pb-1',
+  description: 'text-md text-white font-light',
 };
 
 const SummaryItem = ({ name, description, link = false, internal = false }) => {

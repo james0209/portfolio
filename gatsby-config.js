@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/portfolio',
   siteMetadata: {
     // Site URL for when it goes live
     siteUrl: `https://jamesbrookes.netlify.app/`,
@@ -40,18 +41,9 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
+        name: 'Social Storm Hackathon',
+        description:
+          'Runner up in a 48-hour hackathon. Worked in teams with students from Belgium and Kenya.',
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
     ],

@@ -35,7 +35,7 @@ module.exports = {
       {
         name: 'Tutoring Website',
         description: 'Created a Wordpress website for a client',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        link: 'https://github.com/james0209/',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
@@ -44,7 +44,7 @@ module.exports = {
         name: 'Social Storm Hackathon',
         description:
           'Runner up in a 48-hour hackathon. Worked in teams with students from Belgium and Kenya.',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        link: 'https://www.worldchangers.org.uk/socialstorm',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.

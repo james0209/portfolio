@@ -37,8 +37,8 @@ const Hero = ({ metadata = {}, noBlog = false }) => {
           </span>
           {/* <Link to="/">{metadata.name}</Link> */}
         </h1>
-        <span className="text-blue-600 text-2xl">
-          <p className="text-blue-600 text-2xl">Welcome to my portfolio.</p>
+        <span className="text-white text-2xl">
+          <p className="text-white text-2xl">Welcome to my portfolio.</p>
         </span>
 
         <ul className={classes.list}>

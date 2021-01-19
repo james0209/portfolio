@@ -2,7 +2,7 @@ import React from 'react';
 
 const classes = {
   wrapper:
-    'p-8 relative xs:p-24 bg-gradient-to-b from-grad5-500 via grad4-500 to-grad3-500',
+    'p-8 relative xs:p-24 bg-gradient-to-b from-veniceblue1-500 to-veniceblue2-500',
   outerWrapper: 'relative',
   svg: 'hidden fixed transform right-0 top-5 z-0 xl:block',
 };

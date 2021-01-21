@@ -4,7 +4,7 @@
 
 @layer base {
   .blog-content {
-    @apply text-gray-600;
+    @apply text-white;
     @apply max-w-screen-md;
   }
 
@@ -34,40 +34,40 @@
 
   .blog-content h1 {
     @apply text-4xl;
-    @apply text-gray-900;
+    @apply text-white;
     @apply font-bold;
     @apply my-3;
   }
 
   .blog-content h2 {
     @apply text-2xl;
-    @apply text-gray-900;
+    @apply text-white;
     @apply font-bold;
     @apply my-3;
   }
 
   .blog-content h3 {
     @apply text-xl;
-    @apply text-gray-900;
+    @apply text-white;
     @apply font-bold;
     @apply my-3;
   }
 
   .blog-content h4 {
-    @apply text-gray-900;
+    @apply text-white;
     @apply font-bold;
     @apply my-3;
   }
 
   .blog-content h5 {
-    @apply text-gray-900;
+    @apply text-white;
     @apply text-sm;
     @apply font-bold;
     @apply my-3;
   }
 
   .blog-content h6 {
-    @apply text-gray-700;
+    @apply text-white;
     @apply text-xs;
     @apply font-bold;
     @apply my-3;

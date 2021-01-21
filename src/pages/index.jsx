@@ -3,7 +3,6 @@ import get from 'lodash/get';
 import React from 'react';
 
 import Hero from '../components/hero';
-import Header from '../components/header';
 import Layout from '../components/layout';
 import SectionAbout from '../components/section-about';
 import SectionBlog from '../components/section-blog';

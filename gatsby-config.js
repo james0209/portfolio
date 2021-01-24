@@ -55,7 +55,7 @@ module.exports = {
       },
       {
         name: 'Databases',
-        description: 'PostreSQL, MySQL',
+        description: 'PostgreSQL, MySQL',
       },
       {
         name: 'Other',

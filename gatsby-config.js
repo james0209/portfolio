@@ -23,8 +23,8 @@ module.exports = {
       {
         name: 'University Website Redesign',
         description:
-          'A blazing fast re-design of my university website, built with GatsbyJs, React, and React Router',
-        link: 'https://james0209.github.io/hci_cw2/',
+          'A blazing fast re-design of my university website, built with GatsbyJs, React, and React Router. Code available on my Github.',
+        link: 'https://uea-portal.netlify.app/',
       },
       {
         name: 'Study Planner',

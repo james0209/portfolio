@@ -1,6 +1,6 @@
 ---
 title: Smart LED Structure
-date: '2019-09-20T12:00:00.00Z'
+date: '2019-11-12'
 description: 'DIY Wooden LED structure with wireless capabilities'
 ---
 

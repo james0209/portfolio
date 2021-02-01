@@ -1,6 +1,6 @@
 ---
 title: Smart Mirror
-date: '2020-10-02T12:00:00.00Z'
+date: '2019-11-12'
 description: 'Raspberry Pi smart mirror'
 ---
 

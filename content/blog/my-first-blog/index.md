@@ -1,58 +1,37 @@
 ---
 title: Smart LED Structure
-date: '2019-11-12'
+date: '2020-11-12'
 description: 'DIY Wooden LED structure with wireless capabilities'
 ---
 
-## Inspiration
-
-Nanoleaf. Featured in every Pinterest board; every Youtuber's setup; every "Top 10 aesthetics" videos.
-
 ![Mountain](./mountain.jpg)
 
-Aliquam aliquid rem facere dolorum consectetur consequatur distinctio [mollitia id modi repellendus](https://github.com/RyanFitzgerald/devfolio) vero quae dolorem commodi soluta voluptates iusto nobis est dolore provident, porro veritatis placeat nemo impedit! Asperiores culpa delectus hic qui saepe, ipsum quia, exercitationem repellendus magni soluta sit suscipit laborum ducimus.
+## Inspiration
 
-## Asperiores culpa delectus hic qui saepe
+[Nanoleaf](https://nanoleaf.me/). It's hard not to have heard of, or atleast seen, their flagship products. Featured heavily Pinterest board; in the background of Youtube videos. The smart wall panel caught my eye, and so I checked out their page to possibly buy one. I looked at the price. I looked at my student bank account. I looked back at the price. Buying one at the time wasn't a possiblity, but what about making one?
 
-### Facere labore velit ad autem
+## Research
 
-Vitae veritatis quae eius quis vel soluta cumque? Facere labore velit ad autem. Nisi recusandae ducimus molestiae error ipsa quaerat, dignissimos suscipit similique itaque sunt provident quasi minus ut porro. Optio modi harum _dolore necessitatibus exercitationem_ blanditiis magni error ipsum, odit deleniti eligendi facilis, nesciunt delectus sit nostrum porro quam accusamus excepturi labore sequi maiores soluta?
+So. Much. Research. I could now tell you more about the WS2812B LED's than I would like to admit. I knew before I got to the design stage, I would have to do research about the components I would need. I found a couple of videos on Youtube that gave
+me some inspiration and some help in this department. I ended up going with:
 
-### Porro veritatis placeat nemo impedit
+- ESP8266 microcontroller
+- WS2812B LED strip
+- Breadboard
+- Logic Level shifter
 
-Veritatis et praesentium totam neque earum commodi nesciunt dolor quibusdam incidunt non, ex dicta molestias omnis maiores, maxime velit perferendis tenetur aut porro nostrum, suscipit soluta necessitatibus deserunt nobis. Minus rem dicta eos exercitationem illum consequatur consectetur praesentium voluptas. Dolor inventore quasi necessitatibus odio eaque doloribus.
+## Software
 
-> Repudiandae iusto et iure pariatur aliquid, quisquam, non sed culpa, dignissimos recusandae facilis. Debitis hic, quaerat recusandae ad id, quis nisi perspiciatis quo aliquid natus similique.
+Having the LED's connected up to the controller is one thing, but they're useless without any software to control them. Thankfully, [WLED](https://github.com/Aircoookie/WLED) had my back. A feature rich, open-source web server for the ESP8266 to allow smart control of attached LED strips. It has hundreds of effects, easy to use, and is highly customisable.
 
-Illum esse recusandae facere ipsam fugiat est eaque ducimus facilis provident, distinctio cum aut corporis officiis quo fugit, similique temporibus inventore quidem tempora commodi saepe dicta! Numquam fugiat quibusdam aut ut, voluptatibus accusamus **repellendus quas minus consequuntur** possimus! Est eaque nesciunt, reiciendis voluptate placeat aspernatur doloremque unde cum et architecto suscipit quam facere corrupti nihil odit eum minima voluptatem nobis.
+Adding the software onto the controller was relatively easy. Apart from the hickup of Windows drivers not working initially, the Arduino IDE made it easy for me to select the settings required for the device. You should research what these settings are for your device.
 
-## Voluptatibus accusamus repellendus quas minus
+**Edit:** It seems as though WLED now recommends using [ESPTool](https://github.com/espressif/esptool) instead to flash the binary.
 
-Ipsum quod, ut animi mollitia ipsam repellat, dolore voluptate quibusdam quasi reiciendis necessitatibus odio ea nostrum illo explicabo? Ducimus, in repudiandae. Ratione dolore sequi in animi obcaecati incidunt reprehenderit illo repellat atque aperiam, praesentium eligendi! Sed voluptas voluptatem sunt distinctio pariatur ullam? Laudantium laboriosam.
+## Design
 
-- Numquam fugiat quibusdam aut ut
-- Soluta necessitatibus deserunt nobis
-- Illum esse recusandae facere ipsam
+This is the stage that I am at currently. Trying to complete this project between my university deadlines whilst being a final year student is not easy. But progress is being made.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reprehenderit inventore sunt, consequatur omnis tempore ullam natus.
+The initial thought was to use a pre-designed 3D-printed model I found that replicated the haxagon nature of the Nanoleaf. However, I thought this would look to similar, and I wanted it to have my own personal flair to it.
 
-1. Numquam fugiat quibusdam aut ut
-2. Soluta necessitatibus deserunt nobis
-3. Illum esse recusandae facere ipsam
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reprehenderit inventore sunt, consequatur omnis tempore ullam natus, porro odit aut, atque asperiores repudiandae corporis quidem esse eos provident velit perferendis magni fugit eum quisquam eligendi. Atque distinctio iure aliquam veniam inventore, soluta est, cum accusantium possimus illum quasi eveniet sed amet ipsa culpa vel in delectus laboriosam repellendus totam. Facere.
-
-## Suscipit soluta necessitatibus deserunt nobi
-
-Minus rem dicta eos exercitationem illum consequatur consectetur praesentium voluptas. Dolor inventore quasi necessitatibus odio eaque doloribus.
-
-```js
-const helloWorld = (name = 'World') => {
-  return `Hello ${name}!`;
-};
-
-helloWorld();
-helloWorld('John Doe');
-```
-
-Numquam fugiat quibusdam aut ut, voluptatibus accusamus repellendus quas minus consequuntur possimus!
+Therefore, the current idea is to buy some timer, wood glue, and clamps, and create a hexagon myself. This would allow me to improve my woodworking skills, whilst adding the natural appeal of wood instead of plastic filament.

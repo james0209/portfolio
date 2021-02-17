@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: '/portfolio',
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://jamesbrookes.netlify.app/`,
+    siteUrl: `https://jamesbrookes.gtsb.io/`,
     // Your Name
     name: 'James Brookes',
     // Main Site Title
@@ -17,9 +17,15 @@ module.exports = {
     linkedin: `https://www.linkedin.com/in/james-brookes-367413193/`,
 
     // Content of the About Me section
-    about: `I am a motivated computer science graduate who enjoys taking things apart to understand how they work.`,
+    about: `Motivated computer science graduate with a passion for problem solving. From writing code to researching emerging technologies, I try and go the extra mile to develop the best tools and services I can.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
+      {
+        name: 'Study Planner',
+        description:
+          'JavaFX written application for university students to use as a study planner. Allows for import of XML files of students timetables to provide up-to-date information regarding assignments and deadlines.',
+        link: 'https://github.com/james0209/StudyPlanner',
+      },
       {
         name: 'University Website Redesign',
         description:
@@ -27,15 +33,10 @@ module.exports = {
         link: 'https://uea-portal.netlify.app/',
       },
       {
-        name: 'Study Planner',
+        name: 'Clippesby Church Website',
         description:
-          'Java written application for students to use as a study planner. Allows for import of XML files of students timetables to provide up-to-date information regarding assignments.',
-        link: 'https://github.com/james0209/StudyPlanner',
-      },
-      {
-        name: 'Tutoring Website',
-        description: 'Created a Wordpress website for a client',
-        link: 'https://github.com/james0209/',
+          'Hired to create a website for a local Church. Maintained contact with the stakeholder and developed using Agile methodology.',
+        link: 'https://clippesby.zyrosite.com/',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
@@ -43,15 +44,19 @@ module.exports = {
       {
         name: 'Social Storm Hackathon',
         description:
-          'Runner up in a 48-hour hackathon. Worked in teams with students from Belgium and Kenya.',
+          'Runner up in a 48-hour hackathon. Worked in a team with students from Belgium and Nairobi on an MVP social media blog to help raise awareness of gender inequality.',
         link: 'https://www.worldchangers.org.uk/socialstorm',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
-        name: 'Languages & Frameworks',
-        description: 'JavaScript (ES6+), Node.js, React, Bootstrap',
+        name: 'Programming',
+        description: 'Java, Python, C#',
+      },
+      {
+        name: 'Web Development & Frameworks',
+        description: 'JavaScript (ES6+), Node.js, React, Dash, Bootstrap',
       },
       {
         name: 'Databases',

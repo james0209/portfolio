@@ -17,7 +17,7 @@ module.exports = {
     linkedin: `https://www.linkedin.com/in/james-brookes-367413193/`,
 
     // Content of the About Me section
-    about: `Motivated computer science graduate with a passion for problem solving. From writing code to researching emerging technologies, I try and go the extra mile to develop the best tools and services I can.`,
+    about: `Motivated computer science graduate with a passion for problem solving. From writing code to researching emerging technologies, I go the extra mile to develop the best tools and services I can.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {

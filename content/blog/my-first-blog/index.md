@@ -4,7 +4,7 @@ date: '2020-11-12'
 description: 'DIY Wooden LED structure with wireless capabilities'
 ---
 
-![Mountain](./mountain.jpg)
+![LED Gif](./led_gif.gif)
 
 ## Inspiration
 
@@ -20,6 +20,8 @@ me some inspiration and some help in this department. I ended up going with:
 - Breadboard
 - Logic Level shifter
 
+![Breadboard](./breadboard.jpg)
+
 ## Software
 
 Having the LED's connected up to the controller is one thing, but they're useless without any software to control them. Thankfully, [WLED](https://github.com/Aircoookie/WLED) had my back. A feature rich, open-source web server for the ESP8266 to allow smart control of attached LED strips. It has hundreds of effects, easy to use, and is highly customisable.
@@ -27,6 +29,8 @@ Having the LED's connected up to the controller is one thing, but they're useles
 Adding the software onto the controller was relatively easy. Apart from the hickup of Windows drivers not working initially, the Arduino IDE made it easy for me to select the settings required for the device. You should research what these settings are for your device.
 
 **Edit:** It seems as though WLED now recommends using [ESPTool](https://github.com/espressif/esptool) instead to flash the binary.
+
+![LED Lights](./led_lights1.jpg)
 
 ## Design
 
